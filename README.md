@@ -17,7 +17,7 @@ The shell runs programs using two core system calls: fork() and execvp(). The ex
 Additional use of Pipes:
 Pipes allow the stdins and stdouts of a list of programs to be concatenated in a chain. More specifically, the first program's stdout is directed to the stdin of the second program; the second program's stdout is directed to the stdin of the third program; and so on so forth. Multiple piped programs in a command line are separated with the token "|". A command line will therefore have the following form:
      <program1> <arglist1> | <program2> <arglist2> | ... | <programN> 
-
+The prgram is in "shell.c"
 
 Other useful links:
 		 	 	 		
